@@ -61,7 +61,7 @@ return text
 
 return (
 <div className="App">
-<header className="App-header">
+<header>
 <h1>📝 Smart Notes</h1>
 <button id="theme-toggle" title="Toggle Theme" onClick={handleThemeToggle}>
 {theme === 'dark' ? '☀️' : '🌙'}
